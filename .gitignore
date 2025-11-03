@@ -2,6 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
 ### Node ###
+#Operating System Files
+.DS_Store
+Thumbs.db
+
 # Logs
 logs
 *.log
@@ -122,6 +126,7 @@ dist
 # TernJS port file
 .tern-port
 
+
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
@@ -141,4 +146,6 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+
+package-lock.json
 # End of https://www.toptal.com/developers/gitignore/api/node
